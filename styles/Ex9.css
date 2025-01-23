@@ -1,0 +1,10 @@
+html {
+    font-size: 100%;
+}
+body {
+    margin: 10px;
+    font-style: normal;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 500;
+    background-color: beige;
+}

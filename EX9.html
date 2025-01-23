@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Pledge Donations</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	@import url(styles/Ex9.css);
+</style>
+</head>
+
+<body>
+<div>
+    <header><img id="museum" src="images/museum.png" alt=""></header>
+<main>
+    <form action="/pledgelist.php" method="POST">
+    <fieldset>
+    <legend>Pledge Form
+    </legend>
+    <p>Make a pledge in anyones name!</p>
+    <ol>
+        <li><label for="firstlast">Name:
+        <input type="text"  name="fullname" placeholder="John Smith" id="firstlast"></label></li>
+
+        <li><p>Address<br>
+            <label for="address">Street:</label>
+            <input type="text" name="Street" placeholder="123 Apple St" id="address">
+            
+            <label for="address">City:</label>
+            <input type="text" name="City" placeholder="Detroit" id="address1">
+            
+            <label for="address">State:</label>
+            <input type="text" name="State" placeholder="MI or Michigan" id="address2">
+
+            <label for="address">Zip:
+            <input type="text" name="Zip" placeholder="48926" maxlength="5" id="Zip"></label>
+                </p>
+        </li>
+       
+        <li><label>telephone:<input type="tel" name="telephone" 
+            placeholder="xxx-xxxx"></label>
+        </li>
+            <br>
+        <li>
+            <label>Email:<input type="email" name="email" placeholder="sample@gmail.com">
+            </label>
+        </li>
+
+        <p>How much are you pledging?</p>
+        <ol>
+             <li><input type="radio" name="age" value="under24" checked> Student ($20)</li> 
+            <li><input type="radio" name="age" value="25-34"> Individual ($45)</li>
+            <li><input type="radio" name="age" value="35-44"> Family ($60)</li>
+            <li><input type="radio" name="age" value="over45"> Patron ($250)</li>
+            <li><input type="radio" name="age" value="over45"> Benefactor ($750)</li>
+        </ol>
+        <li> <p>Name of honoree or donation made in memoriam</p>
+            <label><input type="text" name="honoree">
+            </label>
+        </li>
+    </ol>
+        <p><input type="submit"> <input type="reset"></p>
+        
+        </fieldset>
+    </form>
+</main>
+<aside></aside>
+<footer><a href="index.html">Back to home</a></footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="220" viewBox="0 0 150 200">
+    <defs>
+        <radialGradient id="radial">
+            <stop offset="0" stop-color="white"/>
+            <stop offset="1" stop-color="orange"/>
+        </radialGradient>
+    </defs>
+    <g id="greenbox">
+        <rect x="40" y="35" width="75" height="136" fill="#ADD8E6" stroke-width="4" stroke="green"/>
+        <circle cx="75" cy="50" r="30" fill="url(#radial)"/>
+        <path d="M 20 67 L 44 91 L 36 41 L 136 20" stroke="black" stroke-width="3" fill="none"/>
+    </g>
+    <text x="30" y="136" fill="#000000" font-family="Verdana" font-size="16">One Simple SVG</text>
+</svg>
